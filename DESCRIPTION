@@ -1,5 +1,5 @@
 Package: ssev
-Title: Sample size computation for fixed N with optimal reward
+Title: Sample Size Computation for Fixed N with Optimal Reward
 Version: 0.1.0
 Authors@R: person("Maurits", "Kaptein", email = "maurits@mauritskaptein.com", role = c("aut", "cre"))
 Description: Computes the optimal sample size for various 2-group designs (e.g., when comparing the means of two groups assuming equal variances, unequal variances, or comparing proportions) when the aim is to maximize the rewards over the full decision procedure of a) running a trial (with the computed sample size), and b) subsequently administering the winning treatment to the remaining N-n units in the population. Sample sizes and expected rewards for standard t- and z- tests are also provided.
