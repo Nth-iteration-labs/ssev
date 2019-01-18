@@ -207,7 +207,7 @@ compute_sample_size <- function(
 #' @param means Vector of estimated means
 #' @param sd Standard deviation of the groups (assumed equal)
 #' @param sig.level Significance level
-#' @param ties Tie-breaking probablity
+#' @param ties Tie-breaking probability
 #'
 #' @return A scalar indicating the expected mean reward per unit in the population
 ev_means_equal <- function(n, N, means, sd, sig.level, ties){
@@ -250,7 +250,7 @@ ev_means_equal <- function(n, N, means, sd, sig.level, ties){
 #' @param means Vector of estimated means
 #' @param sds Vector of standard deviation of the groups
 #' @param sig.level Significance level
-#' @param ties Tie-breaking probablity
+#' @param ties Tie-breaking probability
 #'
 #' @return A scalar indicating the expected mean reward per unit in the population
 ev_means_unequal <- function(n, N, means, sds, sig.level, ties){
@@ -292,7 +292,7 @@ ev_means_unequal <- function(n, N, means, sds, sig.level, ties){
 #' @param N Population size (estimate)
 #' @param proportions Vector of two proportions
 #' @param sig.level Significance level
-#' @param ties Tie-breaking probablity
+#' @param ties Tie-breaking probability
 #'
 #' @return A scalar indicating the expected mean reward per unit in the population
 ev_proportions <- function(n, N, proportions, sig.level, ties){

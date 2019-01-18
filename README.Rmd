@@ -10,7 +10,7 @@ The goal of ssev is to compute optimal sample sizes for two-stage RCT designs wh
 
 ## Example
 
-The following code computes the sample size required for a population of $N=10^5$ units when assuming equal variances and a cohen's d of .8:
+The following code computes the sample size required for a population of 10000 units when assuming equal variances and a Cohen's d of .8:
 
 ```{r example}
 compute_sample_size(means=c(0,.8), sds=1, N=10^5)

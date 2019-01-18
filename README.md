@@ -4,7 +4,7 @@
 
 <h2>Example</h2>
 
-<p>The following code computes the sample size required for a population of \(N=10^5\) units when assuming equal variances and a cohen&#39;s d of .8:</p>
+<p>The following code computes the sample size required for a population of 10000 units when assuming equal variances and a Cohen&#39;s d of .8:</p>
 
 <pre><code class="r example">compute_sample_size(means=c(0,.8), sds=1, N=10^5)
 </code></pre>

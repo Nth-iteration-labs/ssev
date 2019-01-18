@@ -15,7 +15,7 @@ ev_proportions(n, N, proportions, sig.level, ties)
 
 \item{sig.level}{Significance level}
 
-\item{ties}{Tie-breaking probablity}
+\item{ties}{Tie-breaking probability}
 }
 \value{
 A scalar indicating the expected mean reward per unit in the population
